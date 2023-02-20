@@ -3,7 +3,7 @@ from optproblems import dtlz
 import numpy as np
 import copy
 import hvwfg
-from dvl_utils import truncate, generate_reference_points
+from dvl_util import truncate, generate_reference_points
 import pandas as pd
 from sklearn.preprocessing import Normalizer, MaxAbsScaler, MinMaxScaler
 import time
@@ -58,7 +58,7 @@ class DVL():
         else:
             reference_points = np.asarray(generate_reference_points(self.problem.num_objectives, self.problem.num_variables))
         
-        ## Two strategies of using the inverse modeling:
+        ## The two strategies of using the inverse modeling by the default algorithm implementation:
         new_solutions = self.experimento1(objectives, solutions, reference_points, lower, upper, self.num_training)
         #new_solutions = self.experimento2(objectives, solutions, reference_points, lower, upper)    
 
@@ -146,10 +146,7 @@ class DVL():
     ## Inverse modeling for the SUMO real problem:
     def experimento1Real(self, objectives_not, solutions, reference_points, lower, upper, n):
         
-        #bjectives = self.preprocessing.fit_transform(objectives_not) * 100
-        #objectives = self.preprocessing.fit_transform(objectives_not) * 10
         objectives = self.preprocessing.fit_transform(objectives_not)
-        #objectives = objectives_not
         new_solutions = []
         num_sol = solutions.shape[0]
         num_var = solutions.shape[1]
@@ -159,7 +156,6 @@ class DVL():
         for rp in reference_points:
             dist = np.linalg.norm(objectives - rp, axis=1)
 
-            #Criação de vetor auxiliar para ordenar pela distancia
             aux = np.zeros((num_sol,num_obj+1))
             aux[:,:-1] = objectives
             aux[:,num_obj] = dist
@@ -169,7 +165,6 @@ class DVL():
             nxt_objectives = np.zeros((n,num_obj))
             nxt_objectives = obj_ordenado[:n,:-1]
 
-            #Criação de vetor auxiliar para ordenar pela distancia
             aux2 = np.zeros((num_sol,num_var+1))
             aux2[:,:-1] = solutions
             aux2[:,num_var] = dist
