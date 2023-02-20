@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <input>
+    <net-file value="net.xml" />
+    <route-files value="flow.rou.xml" />
+    <additional-files value="add.xml" />
+  </input>
+  <time-to-teleport value="-1"/>
+  <output>
+    <tripinfo-output value="output/tripinfos.xml" />
+  </output>
+  <emissions>
+    <device.emissions.probability value="100" />
+  </emissions>
+</configuration>

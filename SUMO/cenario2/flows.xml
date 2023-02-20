@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<flows>
+<vType accel="10.0" decel="4.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="60.0" sigma="0.5" color="1,0,0"/>
+  <flow id="E1_23" from="E1" to="E23" begin="0" end="3600" number="520" type="CarA" />
+  <flow id="E22_7" from="E22" to="E7" begin="0" end="3600" number="370" type="CarA" />
+  <flow id="E10_18" from="E10" to="E18" begin="0" end="3600" number="1500" type="CarA" />
+  <flow id="E19_11" from="E19" to="E11" begin="0" end="3600" number="650" type="CarA" />
+  
+  <flow id="E3_13" from="E3" to="E13" begin="0" end="3600" number="800" type="CarA" />
+  <flow id="E12_9" from="E12" to="E9" begin="0" end="3600" number="710" type="CarA" />
+  <flow id="E24_17" from="E24" to="E17" begin="0" end="3600" number="450" type="CarA" />
+  <flow id="E16_25" from="E16" to="E25" begin="0" end="3600" number="1000" type="CarA" />
+</flows>

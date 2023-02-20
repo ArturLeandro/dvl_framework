@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 05/01/16 10:09:31 by SUMO netconvert Version 0.24.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="Data/Mapas/1/1.nod.xml"/>
+        <edge-files value="Data/Mapas/1/1.edg.xml"/>
+        <connection-files value="Data/Mapas/1/1.con.xml"/>
+        <type-files value="Data/Mapas/1/1.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="Data/Mapas/1/1.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <edge_removal>
+        <remove-edges.isolated value="true"/>
+    </edge_removal>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <junctions.join value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+<net>
+  <location netOffset="200.00,200.00" convBoundary="0.00,0.00,400.00,400.00" origBoundary="-200.00,-200.00,200.00,200.00" projParameter="!" />
+  <type id="principal" numLanes="3" speed="60.00" />
+  <edge id=":2_0" function="internal">
+    <lane id=":2_0_0" index="0" speed="60.00" length="22.70" shape="191.75,211.35 191.75,204.61 191.75,200.00 191.75,195.39 191.75,188.65" />
+    <lane id=":2_0_1" index="1" speed="60.00" length="22.70" shape="195.05,211.35 195.05,204.61 195.05,200.00 195.05,195.39 195.05,188.65" />
+    <lane id=":2_0_2" index="2" speed="60.00" length="22.70" shape="198.35,211.35 198.35,204.61 198.35,200.00 198.35,195.39 198.35,188.65" />
+  </edge>
+  <edge id=":2_3" function="internal">
+    <lane id=":2_3_0" index="0" speed="60.00" length="22.70" shape="211.35,208.25 204.61,208.25 200.00,208.25 195.39,208.25 188.65,208.25" />
+    <lane id=":2_3_1" index="1" speed="60.00" length="22.70" shape="211.35,204.95 204.61,204.95 200.00,204.95 195.39,204.95 188.65,204.95" />
+    <lane id=":2_3_2" index="2" speed="60.00" length="22.70" shape="211.35,201.65 204.61,201.65 200.00,201.65 195.39,201.65 188.65,201.65" />
+  </edge>
+  <edge id=":2_6" function="internal">
+    <lane id=":2_6_0" index="0" speed="60.00" length="22.70" shape="208.25,188.65 208.25,195.39 208.25,200.00 208.25,204.61 208.25,211.35" />
+    <lane id=":2_6_1" index="1" speed="60.00" length="22.70" shape="204.95,188.65 204.95,195.39 204.95,200.00 204.95,204.61 204.95,211.35" />
+    <lane id=":2_6_2" index="2" speed="60.00" length="22.70" shape="201.65,188.65 201.65,195.39 201.65,200.00 201.65,204.61 201.65,211.35" />
+  </edge>
+  <edge id=":2_9" function="internal">
+    <lane id=":2_9_0" index="0" speed="60.00" length="22.70" shape="188.65,191.75 195.39,191.75 200.00,191.75 204.61,191.75 211.35,191.75" />
+    <lane id=":2_9_1" index="1" speed="60.00" length="22.70" shape="188.65,195.05 195.39,195.05 200.00,195.05 204.61,195.05 211.35,195.05" />
+    <lane id=":2_9_2" index="2" speed="60.00" length="22.70" shape="188.65,198.35 195.39,198.35 200.00,198.35 204.61,198.35 211.35,198.35" />
+  </edge>
+  <edge id="E1" from="4" to="2" name="Av Acrisio Cruz - Jardins - A.S" priority="-1" type="principal">
+    <lane id="E1_0" index="0" speed="60.00" length="188.65" shape="0.00,191.75 188.65,191.75" />
+    <lane id="E1_1" index="1" speed="60.00" length="188.65" shape="0.00,195.05 188.65,195.05" />
+    <lane id="E1_2" index="2" speed="60.00" length="188.65" shape="0.00,198.35 188.65,198.35" />
+  </edge>
+  <edge id="E2" from="2" to="3" name="Av Acrisio Cruz - Jardins - D.S" priority="-1" type="principal">
+    <lane id="E2_0" index="0" speed="60.00" length="188.65" shape="211.35,191.75 400.00,191.75" />
+    <lane id="E2_1" index="1" speed="60.00" length="188.65" shape="211.35,195.05 400.00,195.05" />
+    <lane id="E2_2" index="2" speed="60.00" length="188.65" shape="211.35,198.35 400.00,198.35" />
+  </edge>
+  <edge id="E3" from="5" to="2" name="Rua Ananias Azevedo - X - A.S" priority="-1" type="principal">
+    <lane id="E3_0" index="0" speed="60.00" length="188.65" shape="208.25,0.00 208.25,188.65" />
+    <lane id="E3_1" index="1" speed="60.00" length="188.65" shape="204.95,0.00 204.95,188.65" />
+    <lane id="E3_2" index="2" speed="60.00" length="188.65" shape="201.65,0.00 201.65,188.65" />
+  </edge>
+  <edge id="E5" from="3" to="2" name="Av Acrisio Cruz - Centro - A.S" priority="-1" type="principal">
+    <lane id="E5_0" index="0" speed="60.00" length="188.65" shape="400.00,208.25 211.35,208.25" />
+    <lane id="E5_1" index="1" speed="60.00" length="188.65" shape="400.00,204.95 211.35,204.95" />
+    <lane id="E5_2" index="2" speed="60.00" length="188.65" shape="400.00,201.65 211.35,201.65" />
+  </edge>
+  <edge id="E6" from="2" to="1" name="Rua Ananias Azevedo - Beira Mar - A.S" priority="-1" type="principal">
+    <lane id="E6_0" index="0" speed="60.00" length="188.65" shape="208.25,211.35 208.25,400.00" />
+    <lane id="E6_1" index="1" speed="60.00" length="188.65" shape="204.95,211.35 204.95,400.00" />
+    <lane id="E6_2" index="2" speed="60.00" length="188.65" shape="201.65,211.35 201.65,400.00" />
+  </edge>
+  <edge id="E7" from="2" to="4" name="Av Acrisio Cruz - Centro - D.S" priority="-1" type="principal">
+    <lane id="E7_0" index="0" speed="60.00" length="188.65" shape="188.65,208.25 0.00,208.25" />
+    <lane id="E7_1" index="1" speed="60.00" length="188.65" shape="188.65,204.95 0.00,204.95" />
+    <lane id="E7_2" index="2" speed="60.00" length="188.65" shape="188.65,201.65 0.00,201.65" />
+  </edge>
+  <edge id="E8" from="1" to="2" name="Beira Mar - X - A.S" priority="-1" type="principal">
+    <lane id="E8_0" index="0" speed="60.00" length="188.65" shape="191.75,400.00 191.75,211.35" />
+    <lane id="E8_1" index="1" speed="60.00" length="188.65" shape="195.05,400.00 195.05,211.35" />
+    <lane id="E8_2" index="2" speed="60.00" length="188.65" shape="198.35,400.00 198.35,211.35" />
+  </edge>
+  <edge id="E9" from="2" to="5" name="Beira Mar - Rua Ananias Azevedo - D.S" priority="-1" type="principal">
+    <lane id="E9_0" index="0" speed="60.00" length="188.65" shape="191.75,188.65 191.75,0.00" />
+    <lane id="E9_1" index="1" speed="60.00" length="188.65" shape="195.05,188.65 195.05,0.00" />
+    <lane id="E9_2" index="2" speed="60.00" length="188.65" shape="198.35,188.65 198.35,0.00" />
+  </edge>
+  <tlLogic id="2" type="static" programID="0" offset="0">
+    <phase duration="41" state="GGGrrrGGGrrr" />
+    <phase duration="4" state="yyyrrryyyrrr" />
+    <phase duration="52" state="rrrGGGrrrGGG" />
+    <phase duration="4" state="rrryyyrrryyy" />
+  </tlLogic>
+  <junction id="1" type="dead_end" x="200.00" y="400.00" incLanes="E6_0 E6_1 E6_2" intLanes="" shape="199.95,400.00 190.15,400.00 209.85,400.00 200.05,400.00" />
+  <junction id="2" type="traffic_light" x="200.00" y="200.00" incLanes="E8_0 E8_1 E8_2 E5_0 E5_1 E5_2 E3_0 E3_1 E3_2 E1_0 E1_1 E1_2" intLanes=":2_0_0 :2_0_1 :2_0_2 :2_3_0 :2_3_1 :2_3_2 :2_6_0 :2_6_1 :2_6_2 :2_9_0 :2_9_1 :2_9_2" shape="190.15,211.35 209.85,211.35 211.35,209.85 211.35,190.15 209.85,188.65 190.15,188.65 188.65,190.15 188.65,209.85">
+    <request index="0" response="000000000000" foes="111000111000" cont="0" />
+    <request index="1" response="000000000000" foes="111000111000" cont="0" />
+    <request index="2" response="000000000000" foes="111000111000" cont="0" />
+    <request index="3" response="000111000111" foes="000111000111" cont="0" />
+    <request index="4" response="000111000111" foes="000111000111" cont="0" />
+    <request index="5" response="000111000111" foes="000111000111" cont="0" />
+    <request index="6" response="000000000000" foes="111000111000" cont="0" />
+    <request index="7" response="000000000000" foes="111000111000" cont="0" />
+    <request index="8" response="000000000000" foes="111000111000" cont="0" />
+    <request index="9" response="000111000111" foes="000111000111" cont="0" />
+    <request index="10" response="000111000111" foes="000111000111" cont="0" />
+    <request index="11" response="000111000111" foes="000111000111" cont="0" />
+  </junction>
+  <junction id="3" type="dead_end" x="400.00" y="200.00" incLanes="E2_0 E2_1 E2_2" intLanes="" shape="400.00,200.05 400.00,209.85 400.00,190.15 400.00,199.95" />
+  <junction id="4" type="dead_end" x="0.00" y="200.00" incLanes="E7_0 E7_1 E7_2" intLanes="" shape="-0.00,199.95 -0.00,190.15 0.00,209.85 0.00,200.05" />
+  <junction id="5" type="dead_end" x="200.00" y="0.00" incLanes="E9_0 E9_1 E9_2" intLanes="" shape="200.05,-0.00 209.85,-0.00 190.15,0.00 199.95,0.00" />
+  <connection from="E1" to="E2" fromLane="0" toLane="0" via=":2_9_0" tl="2" linkIndex="9" dir="s" state="o" />
+  <connection from="E1" to="E2" fromLane="1" toLane="1" via=":2_9_1" tl="2" linkIndex="10" dir="s" state="o" />
+  <connection from="E1" to="E2" fromLane="2" toLane="2" via=":2_9_2" tl="2" linkIndex="11" dir="s" state="o" />
+  <connection from="E3" to="E6" fromLane="0" toLane="0" via=":2_6_0" tl="2" linkIndex="6" dir="s" state="o" />
+  <connection from="E3" to="E6" fromLane="1" toLane="1" via=":2_6_1" tl="2" linkIndex="7" dir="s" state="o" />
+  <connection from="E3" to="E6" fromLane="2" toLane="2" via=":2_6_2" tl="2" linkIndex="8" dir="s" state="o" />
+  <connection from="E5" to="E7" fromLane="0" toLane="0" via=":2_3_0" tl="2" linkIndex="3" dir="s" state="o" />
+  <connection from="E5" to="E7" fromLane="1" toLane="1" via=":2_3_1" tl="2" linkIndex="4" dir="s" state="o" />
+  <connection from="E5" to="E7" fromLane="2" toLane="2" via=":2_3_2" tl="2" linkIndex="5" dir="s" state="o" />
+  <connection from="E8" to="E9" fromLane="0" toLane="0" via=":2_0_0" tl="2" linkIndex="0" dir="s" state="o" />
+  <connection from="E8" to="E9" fromLane="1" toLane="1" via=":2_0_1" tl="2" linkIndex="1" dir="s" state="o" />
+  <connection from="E8" to="E9" fromLane="2" toLane="2" via=":2_0_2" tl="2" linkIndex="2" dir="s" state="o" />
+  <connection from=":2_0" to="E9" fromLane="0" toLane="0" dir="s" state="M" />
+  <connection from=":2_0" to="E9" fromLane="1" toLane="1" dir="s" state="M" />
+  <connection from=":2_0" to="E9" fromLane="2" toLane="2" dir="s" state="M" />
+  <connection from=":2_3" to="E7" fromLane="0" toLane="0" dir="s" state="M" />
+  <connection from=":2_3" to="E7" fromLane="1" toLane="1" dir="s" state="M" />
+  <connection from=":2_3" to="E7" fromLane="2" toLane="2" dir="s" state="M" />
+  <connection from=":2_6" to="E6" fromLane="0" toLane="0" dir="s" state="M" />
+  <connection from=":2_6" to="E6" fromLane="1" toLane="1" dir="s" state="M" />
+  <connection from=":2_6" to="E6" fromLane="2" toLane="2" dir="s" state="M" />
+  <connection from=":2_9" to="E2" fromLane="0" toLane="0" dir="s" state="M" />
+  <connection from=":2_9" to="E2" fromLane="1" toLane="1" dir="s" state="M" />
+  <connection from=":2_9" to="E2" fromLane="2" toLane="2" dir="s" state="M" />
+</net>

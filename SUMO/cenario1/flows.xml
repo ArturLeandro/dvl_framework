@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<flows>
+<vType accel="10.0" decel="4.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="60.0" sigma="0.5" color="1,0,0"/>
+  <flow id="E1_2" from="E1" to="E2" begin="0" end="3600" number="1000" type="CarA" />
+  <flow id="E5_7" from="E5" to="E7" begin="0" end="3600" number="500" type="CarA" />
+  <flow id="E3_6" from="E3" to="E6" begin="0" end="3600" number="850" type="CarA" />
+  <flow id="E8_9" from="E8" to="E9" begin="0" end="3600" number="650" type="CarA" />
+</flows>

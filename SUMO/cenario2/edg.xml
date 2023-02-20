@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+   <edge id="E1" from="4" to="2" name="Av Acrisio Cruz - Jardins - A.S" type="principal"/>
+	<edge id="E7" from="2" to="4" name="Av Acrisio Cruz - Centro - D.S" type="principal"/>
+	<edge id="E5" from="3" to="2" name="Av Acrisio Cruz - Centro - A.S" type="principal"/>
+   <edge id="E2" from="2" to="3" name="Av Acrisio Cruz - Jardins - D.S" type="principal"/>
+   <edge id="E3" from="5" to="2" name="Rua Ananias Azevedo - X - A.S" type="principal"/>
+   <edge id="E9" from="2" to="5" name="Beira Mar - Rua Ananias Azevedo - D.S" type="principal"/>
+	<edge id="E6" from="2" to="1" name="Rua Ananias Azevedo - Beira Mar - A.S" type="principal"/>
+   <edge id="E8" from="1" to="2" name="Beira Mar - X - A.S" type="principal"/>
+   
+   <edge id="E10" from="6" to="1" name="Paral Acrisio - Beira Mar - A.S" type="principal"/>
+   <edge id="E11" from="1" to="6" name="Temp 1 - Beira Mar - A.S" type="principal"/>
+   <edge id="E12" from="7" to="1" name="Temp 2 - Beira Mar - A.S" type="principal"/>
+   <edge id="E13" from="1" to="7" name="Temp 3 - Beira Mar - A.S" type="principal"/>
+   <edge id="E14" from="1" to="9" name="Temp 4 - Beira Mar - A.S" type="principal"/>
+   <edge id="E15" from="9" to="1" name="Temp 6 - Beira Mar - A.S" type="principal"/>
+   
+   <edge id="E16" from="8" to="9" name="Temp 7 - Beira Mar - A.S" type="principal"/>
+   <edge id="E17" from="9" to="8" name="Temp 8 - Beira Mar - A.S" type="principal"/>   
+   <edge id="E18" from="9" to="10" name="Temp 9 - Beira Mar - A.S" type="principal"/>
+   <edge id="E19" from="10" to="9" name="Temp 10 - Beira Mar - A.S" type="principal"/>
+   <edge id="E20" from="3" to="9" name="Temp 11 - Beira Mar - A.S" type="principal"/>
+   <edge id="E21" from="9" to="3" name="Temp 12 - Beira Mar - A.S" type="principal"/>   
+   
+   <edge id="E22" from="11" to="3" name="Temp 13 - Beira Mar - A.S" type="principal"/>
+   <edge id="E23" from="3" to="11" name="Temp 14 - Beira Mar - A.S" type="principal"/>
+   <edge id="E24" from="12" to="3" name="Temp 15 - Beira Mar - A.S" type="principal"/>
+   <edge id="E25" from="3" to="12" name="Temp 16 - Beira Mar - A.S" type="principal"/>
+   
+</edges>
